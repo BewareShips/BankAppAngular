@@ -11,7 +11,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatListModule} from '@angular/material/list';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { UserlistComponent } from './components/userlist/userlist.component';
-import {MatTableModule} from '@angular/material/table';
+import { MatTableModule } from '@angular/material/table' 
 import {MatPaginatorModule} from '@angular/material/paginator';
 import {MatSortModule} from '@angular/material/sort';
 import {MatFormFieldModule} from '@angular/material/form-field';
@@ -47,6 +47,7 @@ import { CreateUserComponent } from './components/create-user/create-user.compon
   ],
   exports:[
     MatToolbarModule,
+    MatTableModule
     
   ]
 })
